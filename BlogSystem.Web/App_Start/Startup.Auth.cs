@@ -47,11 +47,13 @@
             ////    consumerKey: "",
             ////    consumerSecret: "");
 
-            //// app.UseFacebookAuthentication(
-            ////    appId: "",
-            ////    appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "1090666267610247",
+               appSecret: "43e52ccbe2e3016b47c964462da7d394");
 
-            //// app.UseGoogleAuthentication();
+            app.UseGoogleAuthentication(
+                clientId: "312180262270-6hvrs5trann015q4gdjvnks5boqebiqc.apps.googleusercontent.com",
+                clientSecret: "qfQIlFk7oPDz6RZmpphuhQuw");
         }
     }
 }

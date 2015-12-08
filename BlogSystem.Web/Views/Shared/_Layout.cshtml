@@ -52,24 +52,24 @@
                             <img id="logo-header" src="@ViewBag.Settings.Get["Logo URL"]" width="100" height="60" alt="Logo">
                         </a>
                     </div>
-                </div>
-                <div class="navbar navbar-default col-md-6" role="navigation">
-                    <div class="topbar">
-                        @Html.Partial("_LoginPartial")
-                    </div>
-                    <div class="clearfix"></div>
-                    <nav class="collapse navbar-collapse navbar-responsive-collapse">
-                        <ul class="nav navbar-nav">
-                            <li><a href="/">Home</a></li>
-                            @Html.Action("Menu", "Home", routeValues: new { Area = string.Empty })
-                            <li><a href="/Videos">My Videos</a></li>
-                            @*@if (User.IsAdmin())
-                            {*@
+                </div>               
+                    <div class="navbar navbar-default col-md-6" role="navigation">
+                        <div class="topbar">
+                            @Html.Partial("_LoginPartial")
+                        </div>
+                        <div class="clearfix"></div>
+                        <nav class="collapse navbar-collapse navbar-responsive-collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a href="/">Home</a></li>
+                                @Html.Action("Menu", "Home", routeValues: new { Area = string.Empty })
+                                <li><a href="/Videos">My Videos</a></li>
+                                @*@if (User.IsAdmin())
+                        {*@
                                 @Html.Action("Menu", "Admin", routeValues: new { Area = "Administration" })
-                            @*}*@
-                        </ul>
-                    </nav>
-                </div>
+                                @*}*@
+                            </ul>
+                        </nav>
+                    </div>
             </div>
             <div class="col-md-offset-0">
                 <div ng-app="app">
