@@ -54,7 +54,7 @@
                         return
                             new LatestVideosProvider(ConfigurationManager.AppSettings["YouTubeApiKey"]).GetLatestVideos(
                                 5,
-                                "UULC-vbm7OWvpbqzXaoAMGGw").Project().To<VideoListItemViewModel>().ToList();
+                                "PLF4lVL1sPDSkbnnWh_kbsvbqKYsEDiBky").Project().To<VideoListItemViewModel>().ToList();
                     },
                 7200);
 

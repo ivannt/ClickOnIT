@@ -15,7 +15,7 @@
         private const string UrlFormat =
             "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId={0}&key={1}&maxResults={2}&pageToken={3}";
 
-        private readonly string apiKey = "AIzaSyBRj5n2KQykkQEatwMbQLmZp2wVQR9N6y0";
+        private readonly string apiKey; // = "AIzaSyCH_ayGySELinRIphlSRbHWux2KKZgD1Mc"
 
         public YouTubeChannelVideosFetcher(string apiKey)
         {

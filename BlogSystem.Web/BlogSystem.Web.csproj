@@ -323,6 +323,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\Files\playlistItems.json" />
     <None Include="Properties\PublishProfiles\ivanntakov.co.uk.pubxml" />
     <Content Include="img\nuget-logo.png" />
     <Content Include="Scripts\bootstrap.js" />
@@ -554,7 +555,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\Files\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

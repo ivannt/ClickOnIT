@@ -1,0 +1,115 @@
+{
+ "kind": "youtube#playlistItemListResponse",
+ "etag": "\"3WIcRE7IJ70nCYemJJIi1L7dYAg/AClOO0WOEWoX9H3zonQnYyW9r5g\"",
+ "pageInfo": {
+  "totalResults": 3,
+  "resultsPerPage": 5
+ },
+ "items": [
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"3WIcRE7IJ70nCYemJJIi1L7dYAg/m4Ed4QJP_ajU17qdFQh766P0MG4\"",
+   "id": "PLDl08siXKPJzedF5bJfpe3zYeyvbi0NYW5Gka9HneKKE",
+   "snippet": {
+    "publishedAt": "2015-11-12T12:20:32.000Z",
+    "channelId": "UCLC-vbm7OWvpbqzXaoAMGGw",
+    "title": "Photoshop masks selections channels paths 2015",
+    "description": "Лекция: Селекции, маски, канали и пътечки\nКурс: Photoshop 2015\nЛектор: Тянко Йорданов\nДата: 10/11/2015\n\nУебсайт на Академията на Телерик: http://academy.telerik.com\n\nСледете за предстоящи безплатни обучения на Академията на Телерик във Facebook: http://www.facebook.com/TelerikAcademy.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/4XNkvdC55Ao/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/4XNkvdC55Ao/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/4XNkvdC55Ao/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "TelerikAcademy",
+    "playlistId": "PLF4lVL1sPDSkbnnWh_kbsvbqKYsEDiBky",
+    "position": 0,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "4XNkvdC55Ao"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"3WIcRE7IJ70nCYemJJIi1L7dYAg/5VrzKEZAQSa_xt7QPGUGkjRAtNg\"",
+   "id": "PLDl08siXKPJzedF5bJfpe33cP4oYaYXqjRAH5sx1ZCBU",
+   "snippet": {
+    "publishedAt": "2015-11-12T16:38:04.000Z",
+    "channelId": "UCLC-vbm7OWvpbqzXaoAMGGw",
+    "title": "Въведение във Photoshop",
+    "description": "Лекция: Въведение във Photoshop\nКурс: Photoshop 2015\nЛектор: Иван Жеков и Ваня Павлова\nДата: 5 ноември 2015\n\nУебсайт на Академията на Телерик: http://academy.telerik.com\n\nСледете за предстоящи безплатни обучения на Академията на Телерик във Facebook: http://www.facebook.com/TelerikAcademy.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/P8SCWQYWGa0/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/P8SCWQYWGa0/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/P8SCWQYWGa0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "TelerikAcademy",
+    "playlistId": "PLF4lVL1sPDSkbnnWh_kbsvbqKYsEDiBky",
+    "position": 1,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "P8SCWQYWGa0"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"3WIcRE7IJ70nCYemJJIi1L7dYAg/17W4oCqFMWTTNO9TljnfMZtgfGQ\"",
+   "id": "PLDl08siXKPJzedF5bJfpe3y7cxJ6vlQxFmrGoapV6pbk",
+   "snippet": {
+    "publishedAt": "2015-11-27T14:23:44.000Z",
+    "channelId": "UCLC-vbm7OWvpbqzXaoAMGGw",
+    "title": "Ретуш",
+    "description": "Лекция: Ретуш\nКурс: Photoshop 2015\nЛектор: Лилия Караколева\nДата: 24 ноември 2015\n\nУебсайт на Академията на Телерик: http://academy.telerik.com\n\nСледете за предстоящи безплатни обучения на Академията на Телерик във Facebook: http://www.facebook.com/TelerikAcademy.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/RG5ZuiBUCdg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/RG5ZuiBUCdg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/RG5ZuiBUCdg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "TelerikAcademy",
+    "playlistId": "PLF4lVL1sPDSkbnnWh_kbsvbqKYsEDiBky",
+    "position": 2,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "RG5ZuiBUCdg"
+    }
+   }
+  }
+ ]
+}

@@ -16,7 +16,7 @@
     <meta name="robots" content="index, follow" />
     <meta name="revisit-after" content="1 days" />
     <meta name="author" content="@ViewBag.Settings.Get["Author"]" />
-    <meta name="generator" content="Nikolay.IT BlogSystem - https://github.com/NikolayIT/BlogSystem" />
+    <meta name="generator" content="Ivan NT Blog- https://github.com/ivannt/ClickOnIT " />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="alternate" type="application/rss+xml" title="Blog RSS" href="/RSS/Blog" />
     @Styles.Render("~/Content/css")
@@ -48,6 +48,11 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
                         <a class="navbar-brand" href="/">
                             <img id="logo-header" src="@ViewBag.Settings.Get["Logo URL"]" width="100" height="60" alt="Logo">
                         </a>
@@ -121,7 +126,7 @@
                         <p>&copy; 2011-@DateTime.Now.Year <strong>@ViewBag.Settings.Get["Web Name"]</strong> brought to you by <a href="https://www.ivanntakov.co.uk/" target="_blank">gadtta</a></p>@*<i class="fa fa-magic"></i>*@
                     </div>
                     <div class="col-md-6">
-                        <p class="pull-right"><a href="https://github.com/ivannt" target="_blank"><i class="fa fa-github"></i>Open Source System</a> ver. 1</p>
+                        <p class="pull-right"><a href="https://github.com/ivannt/ClickOnIT" target="_blank"><i class="fa fa-github"></i>Open Source System</a> ver. 1</p>
                     </div>
                 </div>
             </div>

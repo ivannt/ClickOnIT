@@ -43,21 +43,13 @@
 .navbar-header {
     height: 80px;
     margin: 0;
-
-    /*float:right;
-	margin:0px;
-	margin-left:10px;
-	margin-top:30px;
-	padding:0px;
-	padding-left:8px;
-	padding-right:8px;*/
 }
 
 .navbar-brand {
-    /*margin-left:-420px;*/
     margin-top:10px;
     width:60px;
 	height:60px;
+    border-radius: 20px;
 }
 
 .blog-photos li i {
@@ -72,8 +64,8 @@
 
 .blog-photos li i:hover {
 	opacity: 5;
-	box-shadow: 0 0 0 11px #7ab6e3;
-    /*background-color: #7ab6e3;*/
+	box-shadow: 0 0 0 3px #7ab6e3;
+    border-radius: 25px;
 }
 
 .posts .dl-horizontal dt i {
@@ -108,8 +100,10 @@
 }
 
 #slides_control {
-  /*position:absolute;*/
-  width: 400px;
-  left:50%;
-  top:20px;
- margin-left:33%;
+    /*position:absolute;*/
+    width: 400px;
+    left: 50%;
+    top: 20px;
+    margin-left: 33%;
+}
+
